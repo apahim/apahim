@@ -71,9 +71,9 @@ outlines:
 
 - All modules should normally have docstrings
 - All functions and classes exported by a module should also have docstrings.
-- Public methods (including the __init__ constructor) should also have
+- Public methods (including the `__init__` constructor) should also have
   docstrings.
-- A package may be documented in the module docstring of the __init__.py file
+- A package may be documented in the module docstring of the `__init__.py` file
   in the package directory.
 
 We use reStructuredText ([PEP287](https://www.python.org/dev/peps/pep-0287/))
