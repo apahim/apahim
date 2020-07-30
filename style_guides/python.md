@@ -85,10 +85,10 @@ documentation:
   exclamation point, followed by a blank line, followed by he rest of the
   docstring starting at the same cursor position as the first quote of the
   first line.
-- Parameters using `:param <name>: <description>`.
-- Type of the parameters `:type <parameter>: <parameter type>`.
-- Return using `:return: <description>`
-- Return type using `:rtype: <return type>`
+- Parameters syntax: `:param <name>: <description>`
+- Type of parameters syntax: `:type <parameter>: <parameter type>`
+- Return syntax: `:return: <description>`
+- Return type syntax: `:rtype: <return type>`
 
 Example:
 
