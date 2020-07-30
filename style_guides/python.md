@@ -144,7 +144,7 @@ Good:
     # At this point, the lock file is there, it belongs
     # to a running process and we are just waiting for
     # it to be released.
-    if self.timeout <= 0:  # Negative timeout and no lock gives a different msg
+    if self.timeout <= 0:  # Negative timeout is a particular case
         raise AlreadyLocked('File is already locked.')
     elif time.time() > timelimit:
         raise AlreadyLocked('Timeout waiting for the lock.')
